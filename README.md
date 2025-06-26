@@ -1,32 +1,29 @@
 # PDF Analyst CLI
-
-A command-line application for analyzing PDF documents and answering user questions based on their content.
+A command-line application that analyzes PDF documents and answers user questions based on their content.
 
 ## Features
-
 * Extracts text from PDF documents.
-* Converts PDF pages to images for OCR.
 * Processes document content to answer natural language queries.
 
 ## Installation
+* Clone this repository:
+`git clone <repository_url>`
+`cd pdf-analyst-cli`
 
-1.  Clone this repository:
-    `git clone <repository_url>`
-    `cd pdf-analyst-cli`
+* Create and activate a virtual environment:
+`python -m venv .venv` <br>
+  On Windows:
+`.venv\Scripts\activate` <br>
+  On macOS/Linux:
+`source .venv/bin/activate`
 
-2.  Create and activate a virtual environment:
-    `python -m venv .venv`
-    `.\.venv\Scripts\activate` (Windows)
+* Install dependencies:
+`pip install -r requirements.txt`
 
-3.  Install dependencies:
-    `pip install -r requirements.txt`
-
-    *(Ensure you have Tesseract OCR and Poppler installed on your system for full functionality.)*
+(Note: This application requires Tesseract OCR and Poppler to be installed on your system for full functionality.)
 
 ## Usage
+Run the main script:
+`python main.py`
 
-Run the main script with your PDF file:
-
-`python main.py <path_to_your_pdf.pdf>`
-
-Follow the prompts to ask questions about the PDF content.
+The application will then prompt you to enter the path to your PDF file.
