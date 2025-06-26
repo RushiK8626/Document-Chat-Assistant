@@ -1,0 +1,8 @@
+google-generativeai
+numpy
+sentence-transformers
+faiss-cpu # Or faiss-gpu if you have a compatible GPU and want GPU support
+python-dotenv
+pypdf
+pdf2image
+pytesseract

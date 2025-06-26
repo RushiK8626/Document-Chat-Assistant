@@ -1,0 +1,11 @@
+# Python specific files
+*.pyc
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# Test files
+*.pdf
+
+.env
