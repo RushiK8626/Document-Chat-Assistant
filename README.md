@@ -2,8 +2,9 @@
 A command-line application that analyzes PDF documents and answers user questions based on their content.
 
 ## Features
-* Extracts text from PDF documents.
+* Extracts text from Document Files.
 * Processes document content to answer natural language queries.
+* Supported file formats- pdf, docx, csv, txt, xlsx, pptx
 
 ## Installation
 * Clone this repository:
@@ -26,4 +27,4 @@ A command-line application that analyzes PDF documents and answers user question
 Run the main script:
 `python main.py`
 
-The application will then prompt you to enter the path to your PDF file.
+The application will then prompt you to enter the path to your file.

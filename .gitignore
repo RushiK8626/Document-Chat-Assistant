@@ -7,5 +7,10 @@ __pycache__/
 
 # Test files
 *.pdf
+*.docx
+*.txt
+*.xlsx
+*.csv
+*.pptx
 
 .env
