@@ -1,5 +1,5 @@
-# PDF Analyst CLI
-A command-line application that analyzes PDF documents and answers user questions based on their content.
+# Document Chat Assistant
+A command-line application that analyzes documents and answers user questions based on their content.
 
 ## Features
 * Extracts text from Document Files.
@@ -9,7 +9,7 @@ A command-line application that analyzes PDF documents and answers user question
 ## Installation
 * Clone this repository:
 `git clone <repository_url>`
-`cd pdf-analyst-cli`
+`cd document-chat-assistant`
 
 * Create and activate a virtual environment:
 `python -m venv .venv` <br>
